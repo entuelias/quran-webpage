@@ -1,0 +1,138 @@
+body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#1f2937;
+    color: white;
+    padding: 0 90px 90px 90px; 
+    /*why not other option to make the whole page have padding as the image sample i sent you*/
+   
+}
+.part h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* wny justify content have no effect above */
+    gap: 15px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color:#4288eb;
+    
+}
+.logo{
+    background-color:#f9faf8;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+.logo img{
+    width: 70px;
+    height: auto;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.section1 img{
+    width: 400px;
+    height: auto;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 12px;
+    /*why the image overlapps to background color */
+}
+.section2{
+    padding: 0 90px 90px 90px;
+
+}
+.section2 h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+/* how to make the image things work perfect make them have same size all of the 4 images please*/
+/* see object fit solves it */
+.wrapper img{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px; 
+    object-fit: cover; /* Maintains the aspect ratio without stretching */
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.wrapper p{
+    text-align: center;
+
+}
+.one img{
+    width: 300px;
+    height: auto;
+   
+}
+.section3{
+    padding: 90px;
+    background-color: #e5e7eb;
+
+}
+.section3 p{
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+.section4{
+    padding: 20px 60px;
+    display: flex;
+    margin: 90px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+}
+.section4 a{
+    text-decoration: none;
+    color:white ;
+    border: 2px solid white;
+    padding :10px 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color:#1f2937;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
