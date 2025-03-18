@@ -14,6 +14,9 @@ A simple webpage to explore Quranic chapters and reflect on their beauty and wis
 - **Remix Icon**: For using vector icons.
 - **Google Fonts (Roboto)**: For clean typography.
 
+# Live demo:https://entquranii.netlify.app/
+
+
 ## Installation
 
 1. Clone the repository:
